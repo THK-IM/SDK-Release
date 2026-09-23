@@ -48,10 +48,10 @@ The minimum Android version is API 24; the SDK is currently built with compileSd
 <!-- android-release:end -->
 
 <!-- ios-release:start -->
-<!-- ios-version: unpublished -->
+<!-- ios-version: 0.6.10 -->
 ## iOS
 
-最新版本：尚未发布。下方 VERSION 仅为占位符，首次发布后自动替换。
+最新版本：`0.6.10`（发布 tag：`ios-v0.6.10`）。
 
 Each SDK module has its own Swift module and XCFramework. Binary downloads from
 public GitHub Releases and podspec downloads do not require a token.
@@ -65,12 +65,12 @@ platform :ios, '13.0'
 use_frameworks!
 
 target 'YourApp' do
-  pod 'THKIMCore', 'VERSION'
-  pod 'THKIMUI', 'VERSION'
+  pod 'THKIMCore', '0.6.10'
+  pod 'THKIMUI', '0.6.10'
   # Optional modules:
-  # pod 'THKIMProvider', 'VERSION'
-  # pod 'THKIMPreviewer', 'VERSION'
-  # pod 'THKIMRTC', 'VERSION'
+  # pod 'THKIMProvider', '0.6.10'
+  # pod 'THKIMPreviewer', '0.6.10'
+  # pod 'THKIMRTC', '0.6.10'
 end
 
 # Compatibility setup used by the binary integration tests.

@@ -1,0 +1,20 @@
+{
+  "name": "WebRTC-SDK",
+  "version": "144.7559.11.08",
+  "summary": "Custom WebRTC build (vizoss/webrtc fork, stereo audio support) for iOS.",
+  "homepage": "https://github.com/vizoss/webrtc-build",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "vizoss": "think220216@gmail.com"
+  },
+  "source": {
+    "http": "https://github.com/vizoss/webrtc-build/releases/download/144.7559.11.08/WebRTC.xcframework.zip"
+  },
+  "vendored_frameworks": "WebRTC.xcframework",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "requires_arc": true
+}

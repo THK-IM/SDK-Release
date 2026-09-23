@@ -1,0 +1,38 @@
+{
+  "name": "THKIMProvider",
+  "module_name": "THKIMProvider",
+  "version": "0.6.10",
+  "summary": "THK IM IMProvider SDK",
+  "homepage": "https://github.com/THK-IM/SDK-Release",
+  "authors": "THK-IM",
+  "license": {
+    "type": "MIT"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "source": {
+    "http": "https://github.com/THK-IM/SDK-Release/releases/download/ios-v0.6.10/THKIMProvider-0.6.10.xcframework.zip",
+    "sha256": "3d8fac0afdd3eddd385b0afb6cc549e09e161d9523aa27f7782c8978879d07b3"
+  },
+  "dependencies": {
+    "THKIMCore": [
+      "= 0.6.10"
+    ],
+    "THKIMUI": [
+      "= 0.6.10"
+    ],
+    "ZLPhotoBrowser": [
+      "= 4.5.6"
+    ],
+    "YbridOgg": [
+      "= 0.8.1"
+    ],
+    "YbridOpus": [
+      "= 0.8.1"
+    ]
+  },
+  "swift_version": "5.0",
+  "vendored_frameworks": "THKIMProvider.xcframework"
+}

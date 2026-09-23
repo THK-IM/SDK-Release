@@ -1,0 +1,53 @@
+{
+  "name": "THKIMCore",
+  "module_name": "THKIMCore",
+  "version": "0.6.10",
+  "summary": "THK IM IMCore SDK",
+  "homepage": "https://github.com/THK-IM/SDK-Release",
+  "authors": "THK-IM",
+  "license": {
+    "type": "MIT"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "source": {
+    "http": "https://github.com/THK-IM/SDK-Release/releases/download/ios-v0.6.10/THKIMCore-0.6.10.xcframework.zip",
+    "sha256": "d91122e539bb814ea441c8be54d78291b249b7ae853de9340d0e601d82e8ce68"
+  },
+  "dependencies": {
+    "WCDB.swift": [
+      "= 2.1.16"
+    ],
+    "RxSwift": [
+      "= 6.8.0"
+    ],
+    "RxBlocking": [
+      "= 6.8.0"
+    ],
+    "RxCocoa": [
+      "= 6.8.0"
+    ],
+    "CocoaLumberjack/Swift": [
+      "= 3.8.2"
+    ],
+    "Starscream": [
+      "= 4.0.8"
+    ],
+    "Moya/RxSwift": [
+      "= 15.0.0"
+    ],
+    "CryptoSwift": [
+      "= 1.8.4"
+    ],
+    "Alamofire": [
+      "= 5.10.1"
+    ],
+    "SSZipArchive": [
+      "= 2.4.3"
+    ]
+  },
+  "swift_version": "5.0",
+  "vendored_frameworks": "THKIMCore.xcframework"
+}

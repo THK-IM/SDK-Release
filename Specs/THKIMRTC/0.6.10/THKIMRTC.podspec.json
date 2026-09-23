@@ -1,0 +1,32 @@
+{
+  "name": "THKIMRTC",
+  "module_name": "THKIMRTC",
+  "version": "0.6.10",
+  "summary": "THK IM IMRtc SDK",
+  "homepage": "https://github.com/THK-IM/SDK-Release",
+  "authors": "THK-IM",
+  "license": {
+    "type": "MIT"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "source": {
+    "http": "https://github.com/THK-IM/SDK-Release/releases/download/ios-v0.6.10/THKIMRTC-0.6.10.xcframework.zip",
+    "sha256": "25a0a58d934110579689a2eb877fe9c3f1c4138d7d1369c7ecc3bca8e0b4bfe2"
+  },
+  "dependencies": {
+    "THKIMCore": [
+      "= 0.6.10"
+    ],
+    "THKIMUI": [
+      "= 0.6.10"
+    ],
+    "WebRTC-SDK": [
+      "= 144.7559.11.08"
+    ]
+  },
+  "swift_version": "5.0",
+  "vendored_frameworks": "THKIMRTC.xcframework"
+}

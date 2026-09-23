@@ -1,0 +1,38 @@
+{
+  "name": "THKIMPreviewer",
+  "module_name": "THKIMPreviewer",
+  "version": "0.6.10",
+  "summary": "THK IM IMPreviewer SDK",
+  "homepage": "https://github.com/THK-IM/SDK-Release",
+  "authors": "THK-IM",
+  "license": {
+    "type": "MIT"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "source": {
+    "http": "https://github.com/THK-IM/SDK-Release/releases/download/ios-v0.6.10/THKIMPreviewer-0.6.10.xcframework.zip",
+    "sha256": "d74cebd04858b9e342642dfc3d369bced6af362c3addb0102a592c5b6d218012"
+  },
+  "dependencies": {
+    "THKIMCore": [
+      "= 0.6.10"
+    ],
+    "THKIMUI": [
+      "= 0.6.10"
+    ],
+    "SJVideoPlayer": [
+      "= 3.4.3"
+    ],
+    "SJUIKit/SQLite3": [
+      "= 0.0.0.59"
+    ],
+    "SJMediaCacheServer": [
+      "= 2.1.4"
+    ]
+  },
+  "swift_version": "5.0",
+  "vendored_frameworks": "THKIMPreviewer.xcframework"
+}
