@@ -1,0 +1,174 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.thk-im",
+    "module": "rtc",
+    "version": "0.5.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.12.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rtc-0.5.9.aar",
+          "url": "rtc-0.5.9.aar",
+          "size": 189358,
+          "sha512": "f1fb8a2716f309fc2f508a799cac775717b512a747ca9efd492f24321450c255d07d6dfc728ef5dc0b52a579e2eeadd8a8f101297dd065b224c71d9cc191a895",
+          "sha256": "ea980c18d37ae70683537d47668f5161fe1ba51a0dc4fb5af9ada8bc2d67ad0c",
+          "sha1": "daad84a0026b3612bf382513a23c45d8495548e2",
+          "md5": "e8a4fa4ff59c0bd585b54ef66a1b4ca5"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "2.2.10"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.19"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxandroid",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "com.github.getActivity",
+          "module": "XXPermissions",
+          "version": {
+            "requires": "25.2"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "adapter-rxjava2",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "io.github.vizoss",
+          "module": "webrtc-android",
+          "version": {
+            "requires": "144.7559.11.06"
+          }
+        },
+        {
+          "group": "io.github.thk-im",
+          "module": "core",
+          "version": {
+            "requires": "0.5.9"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.12.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rtc-0.5.9.aar",
+          "url": "rtc-0.5.9.aar",
+          "size": 189358,
+          "sha512": "f1fb8a2716f309fc2f508a799cac775717b512a747ca9efd492f24321450c255d07d6dfc728ef5dc0b52a579e2eeadd8a8f101297dd065b224c71d9cc191a895",
+          "sha256": "ea980c18d37ae70683537d47668f5161fe1ba51a0dc4fb5af9ada8bc2d67ad0c",
+          "sha1": "daad84a0026b3612bf382513a23c45d8495548e2",
+          "md5": "e8a4fa4ff59c0bd585b54ef66a1b4ca5"
+        }
+      ]
+    }
+  ]
+}

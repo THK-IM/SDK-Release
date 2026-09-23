@@ -4,10 +4,10 @@
 SDK 实现源码和构建凭据保留在私有仓库。两端独立版本号，同一平台的五个模块使用相同版本。
 
 <!-- android-release:start -->
-<!-- android-version: unpublished -->
+<!-- android-version: 0.5.9 -->
 ## Android
 
-最新版本：尚未发布。下方 VERSION 仅为占位符，首次发布后自动替换。
+最新版本：`0.5.9`（发布 tag：`android-v0.5.9`）。
 
 Add the public Maven directory in `settings.gradle`:
 
@@ -31,11 +31,11 @@ dependencyResolutionManagement {
 Select the modules used by your application, replacing `VERSION` with a published version:
 
 ```groovy
-implementation 'io.github.thk-im:core:VERSION'
-implementation 'io.github.thk-im:ui:VERSION'
-implementation 'io.github.thk-im:provider:VERSION'
-implementation 'io.github.thk-im:preview:VERSION'
-implementation 'io.github.thk-im:rtc:VERSION'
+implementation 'io.github.thk-im:core:0.5.9'
+implementation 'io.github.thk-im:ui:0.5.9'
+implementation 'io.github.thk-im:provider:0.5.9'
+implementation 'io.github.thk-im:preview:0.5.9'
+implementation 'io.github.thk-im:rtc:0.5.9'
 ```
 
 `ui` depends on `core`; `provider` and `preview` depend on `core` and `ui`;

@@ -1,0 +1,174 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.thk-im",
+    "module": "core",
+    "version": "0.5.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-0.5.9.aar",
+          "url": "core-0.5.9.aar",
+          "size": 468212,
+          "sha512": "d6bbb7eada22a8ca364cb579c895c13bf8e96d6e4b9387a92215ddeeb46e6e687939ba2481fe61a58bd5356b77eacd1f62964b3d4f35c5f95bccdb3eca8c6932",
+          "sha256": "3e6fe43ade9f0a2ce6b0902651c8ebfdfd419a4480568b47b1dca8466831f90a",
+          "sha1": "8296c3b40df1d7bfebac14fd695145a2e1b761cf",
+          "md5": "d97c1ba805813c86a20cdf0e7a9b19ea"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "2.2.10"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.16.0"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "gifencoder-integration",
+          "version": {
+            "requires": "4.16.0"
+          }
+        },
+        {
+          "group": "pl.droidsonroids.gif",
+          "module": "android-gif-drawable",
+          "version": {
+            "requires": "1.2.29"
+          }
+        },
+        {
+          "group": "jp.wasabeef",
+          "module": "glide-transformations",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.19"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxandroid",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "com.github.neo-turak",
+          "module": "LiveEventBus",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "adapter-rxjava2",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-runtime",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-0.5.9.aar",
+          "url": "core-0.5.9.aar",
+          "size": 468212,
+          "sha512": "d6bbb7eada22a8ca364cb579c895c13bf8e96d6e4b9387a92215ddeeb46e6e687939ba2481fe61a58bd5356b77eacd1f62964b3d4f35c5f95bccdb3eca8c6932",
+          "sha256": "3e6fe43ade9f0a2ce6b0902651c8ebfdfd419a4480568b47b1dca8466831f90a",
+          "sha1": "8296c3b40df1d7bfebac14fd695145a2e1b761cf",
+          "md5": "d97c1ba805813c86a20cdf0e7a9b19ea"
+        }
+      ]
+    }
+  ]
+}
